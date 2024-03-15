@@ -1,0 +1,37 @@
+available: false
+callbacks: ''
+cargoAcceptance:
+- FURN
+cargoProduction: []
+colour: 1
+fundCostMultiplier: 1
+id: 1
+layout:
+- - - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+name: ArcIkea
+placement: anywhere
+probabilityInGame: 30
+probabilityMapGen: 30
+prospectChance: 0
+tiles:
+- sprites:
+  - alwaysDraw: true
+    drawType: recolour
+    sprite:
+      filename: industries/arcikea/2.png
+      left: -31
+      top: 0
+  - alwaysDraw: false
+    drawType: recolour
+    sprite:
+      filename: industries/arcikea/1.png
+      left: -31
+      top: 0
+type: secondary
